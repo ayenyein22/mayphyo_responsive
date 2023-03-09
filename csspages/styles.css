@@ -1,0 +1,47 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+:root {
+  --background-color: rgb(177, 107, 241);
+  --body-color: rgb(247, 239, 239);
+  --text-color: blueviolet;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--body-color);
+  /*background-image: linear-gradient(to right, var(--background-color), pink);*/
+}
+nav {
+  width: 100%;
+  background-image: linear-gradient(to right, pink, var(--background-color));
+}
+.nav-link {
+  color: white !important;
+}
+.header-text {
+  color: white;
+}
+.toggle-icon {
+  background-color: white;
+}
+
+.body-img,
+.bd-certi {
+  width: 70%;
+  height: 60%;
+  object-fit: contain;
+  object-position: center;
+}
+.body-para,
+.certi-para {
+  padding: 8% 8% 0 8%;
+  font-size: 1.5em;
+  color: var(--text-color);
+  margin: 0;
+}
+.date-para {
+  font-size: 1.5em;
+  margin: 0;
+}

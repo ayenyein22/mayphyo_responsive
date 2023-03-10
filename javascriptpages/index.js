@@ -11,3 +11,23 @@ function checkAndDownload(event) {
 }
 let link = document.querySelector(".certi-link");
 link.addEventListener("click", checkAndDownload);
+
+//Photo Gallery
+const images = [
+  "/images/images_people/mayphyo-green.jpeg",
+  "/images/images_people/mayphyo-green.jpeg",
+  "/images/images_people/mayphyo-green.jpeg",
+  "/images/images_people/mayphyo-green.jpeg",
+  "/images/images_people/mayphyo-green.jpeg",
+];
+function displayImages() {
+  const gallery = document.querySelector(".middle");
+  for (let i = 0; i < images.length; i++) {
+    const img = document.createElement("img");
+    img.src = images[i];
+    gallery.appendChild(img);
+  }
+}
+window.onload = function () {
+  displayImages();
+};

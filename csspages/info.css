@@ -1,0 +1,31 @@
+p,
+h5 {
+  color: var(--text-color);
+}
+h3 {
+  margin-top: 5%;
+}
+.body-img {
+  width: 70%;
+  width: 80%;
+  object-fit: cover;
+  object-position: center;
+}
+.icon {
+  width: 10%;
+}
+info {
+  padding: 10%;
+}
+.middle-body-img {
+  width: 50%;
+  height: 70%;
+  object-fit: cover;
+  object-position: center;
+}
+.second-container {
+  margin-top: 5%;
+}
+.third-container {
+  margin-top: -5%;
+}

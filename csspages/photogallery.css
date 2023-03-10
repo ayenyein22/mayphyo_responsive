@@ -1,5 +1,8 @@
-.top {
-  border-radius: 15% 0%;
+.photo {
+  width: 70%;
+  height: 90%;
+  object-fit: cover;
+  object-position: center;
 }
 .top-text {
   font-size: 1.5em;

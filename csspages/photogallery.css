@@ -1,18 +1,34 @@
-.photo {
-  width: 70%;
-  height: 90%;
+* {
+  margin: 0;
+  padding: 0;
+}
+.middle-body-img {
+  width: 30%;
+  height: 30%;
+}
+.s-photo {
+  width: 10%;
+  height: 10%;
   object-fit: cover;
   object-position: center;
+  height: 10%;
+  margin: 5% 0;
+  display: block;
+  cursor: pointer;
 }
-.top-text {
-  font-size: 1.5em;
-  color: var(--text-color);
+.small-photo {
+  float: left;
 }
-.gal-header-text {
-  color: var(--text-color);
-  font-size: 2em;
-  text-shadow: 2px 2px var(--background-color);
+.photo {
+  top: 50%;
+  left: 50%;
+  transform: translate(-20%, -20%);
+  position: absolute;
 }
-.name-link {
-  color: var(--text-color);
+.b-photo {
+  width: 30%;
+  height: 30%;
+}
+.big-photo {
+  float: right;
 }

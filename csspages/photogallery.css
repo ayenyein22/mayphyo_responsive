@@ -1,0 +1,15 @@
+.top {
+  border-radius: 15% 0%;
+}
+.top-text {
+  font-size: 1.5em;
+  color: var(--text-color);
+}
+.gal-header-text {
+  color: var(--text-color);
+  font-size: 2em;
+  text-shadow: 2px 2px var(--background-color);
+}
+.name-link {
+  color: var(--text-color);
+}

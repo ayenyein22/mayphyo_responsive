@@ -1,0 +1,21 @@
+.body-img,
+.bd-certi {
+  width: 70%;
+  height: 60%;
+  object-fit: contain;
+  object-position: center;
+}
+.bd-certi {
+  width: 70%;
+  height: 50%;
+}
+.body-para,
+.certi-para {
+  padding: 8% 8% 0 8%;
+  font-size: 1.5em;
+  color: var(--text-color);
+}
+.date-para {
+  font-size: 1.5em;
+  margin: 0;
+}

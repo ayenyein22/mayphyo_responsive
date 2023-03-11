@@ -1,34 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-.middle-body-img {
-  width: 30%;
-  height: 30%;
-}
-.s-photo {
-  width: 10%;
-  height: 10%;
+.img-yel {
+  width: 80%;
+  height: 80%;
   object-fit: cover;
   object-position: center;
-  height: 10%;
-  margin: 5% 0;
-  display: block;
-  cursor: pointer;
+  border: 1px solid var(--background-color);
+  padding: 4px;
 }
-.small-photo {
-  float: left;
+.gal-header {
+  position: relative;
+  margin-top: 10%;
 }
-.photo {
-  top: 50%;
-  left: 50%;
-  transform: translate(-20%, -20%);
-  position: absolute;
-}
-.b-photo {
-  width: 30%;
-  height: 30%;
-}
-.big-photo {
-  float: right;
+.gal-header-text {
+  font-size: 1.5em;
 }

@@ -4,7 +4,8 @@
   object-fit: cover;
   object-position: center;
   border: 1px solid var(--background-color);
-  padding: 4px;
+  box-shadow: 1px 1px 10px var(--background-color);
+  padding: 10%;
 }
 .gal-header {
   position: relative;
@@ -12,4 +13,18 @@
 }
 .gal-header-text {
   font-size: 1.5em;
+  color: blueviolet;
+  margin-top: 50px;
+}
+.photo-gallery-text {
+  color: blueviolet;
+  width: 80%;
+  margin: 0 auto;
+}
+.photo-container {
+  margin-top: 5%;
+}
+.caption {
+  padding: 10px;
+  color: blueviolet;
 }

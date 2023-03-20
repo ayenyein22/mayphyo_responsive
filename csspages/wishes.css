@@ -15,3 +15,45 @@
 .one-ppl-img:hover {
   opacity: 0.7;
 }
+.wish-header {
+  margin-top: 60px;
+  color: var(--background-color);
+}
+.body-container {
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid var(--background-color);
+  box-shadow: 1px 1px 10px var(--background-color);
+}
+.card-container {
+  margin: 0 auto;
+  display: block;
+}
+.card-img-top {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+  object-position: center;
+}
+.wish-header {
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 767px) {
+  .wish-header {
+    font-size: 20px;
+    padding: 50px;
+  }
+  .card {
+    margin: 0 auto;
+  }
+}
+
+.wisher-name {
+  color: var(--background-color);
+  font-size: 1.5em;
+}
+.card {
+  margin: 30% auto;
+}
+.col-md-6 {
+}

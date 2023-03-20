@@ -5,6 +5,10 @@
   object-fit: contain;
   object-position: center;
 }
+.body-img {
+  margin-top: 60px;
+}
+
 .bd-certi {
   width: 70%;
   height: 50%;

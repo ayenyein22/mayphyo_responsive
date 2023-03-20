@@ -22,6 +22,7 @@ info {
   height: 70%;
   object-fit: cover;
   object-position: center;
+  margin-top: 45px;
 }
 .second-container {
   margin-top: 5%;

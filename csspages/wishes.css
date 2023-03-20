@@ -43,17 +43,57 @@
     font-size: 20px;
     padding: 50px;
   }
-  .card {
-    margin: 0 auto;
+  .wish,
+  .wish-list {
+    flex-wrap: wrap;
+  }
+  .wish-list {
+    margin: 20px auto;
   }
 }
 
-.wisher-name {
+.container-wishes {
+  width: 70%;
+  display: block;
+  margin: 30px auto;
+}
+.wish-name {
   color: var(--background-color);
   font-size: 1.5em;
 }
-.card {
-  margin: 30% auto;
+.wish-list {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
 }
-.col-md-6 {
+.wish,
+.wish-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.wish-photo {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px var(--background-color);
+}
+.wish-text {
+  padding: 20px;
+}
+button {
+  border: none;
+  box-shadow: 1px 1px 10px var(--background-color);
+  background-color: var(--background-color);
+  padding: 3px;
+  border-radius: 4px;
+}
+.list-link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
 }

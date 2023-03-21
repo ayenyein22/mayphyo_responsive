@@ -1,20 +1,3 @@
-.one-ppl-img {
-  width: 90%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-.three-ppl {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.body-container {
-  margin-top: 80px;
-}
-.one-ppl-img:hover {
-  opacity: 0.7;
-}
 .wish-header {
   margin-top: 60px;
   color: var(--background-color);
@@ -25,33 +8,9 @@
   border: 1px solid var(--background-color);
   box-shadow: 1px 1px 10px var(--background-color);
 }
-.card-container {
-  margin: 0 auto;
-  display: block;
-}
-.card-img-top {
-  width: 70%;
-  height: 70%;
-  object-fit: cover;
-  object-position: center;
-}
 .wish-header {
   margin-bottom: 40px;
 }
-@media screen and (max-width: 767px) {
-  .wish-header {
-    font-size: 20px;
-    padding: 50px;
-  }
-  .wish,
-  .wish-list {
-    flex-wrap: wrap;
-  }
-  .wish-list {
-    margin: 20px auto;
-  }
-}
-
 .container-wishes {
   width: 70%;
   display: block;
@@ -96,4 +55,17 @@ button {
   text-decoration: none;
   color: white;
   font-size: 16px;
+}
+@media screen and (max-width: 767px) {
+  .wish-header {
+    font-size: 20px;
+    padding: 50px;
+  }
+  .wish,
+  .wish-list {
+    flex-wrap: wrap;
+  }
+  .wish-list {
+    margin: 20px auto;
+  }
 }

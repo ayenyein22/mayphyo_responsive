@@ -13,11 +13,11 @@
 }
 .gal-header-text {
   font-size: 1.5em;
-  color: blueviolet;
+  color: var(--text-color);
   margin-top: 50px;
 }
 .photo-gallery-text {
-  color: blueviolet;
+  color: var(--text-color);
   width: 80%;
   margin: 0 auto;
 }
@@ -26,5 +26,5 @@
 }
 .caption {
   padding: 10px;
-  color: blueviolet;
+  color: var(--text-color);
 }

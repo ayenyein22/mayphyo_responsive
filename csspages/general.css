@@ -17,13 +17,13 @@ nav {
   background-image: linear-gradient(to right, pink, var(--background-color));
 }
 .nav-link {
-  color: white !important;
+  color: var(--body-color) !important;
 }
 .header-text {
-  color: white;
+  color: var(--body-color);
 }
 .toggle-icon {
-  background-color: white;
+  background-color: var(--body-color);
 }
 .navigator {
   position: fixed;

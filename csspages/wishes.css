@@ -2,12 +2,6 @@
   margin-top: 60px;
   color: var(--background-color);
 }
-.body-container {
-  text-align: center;
-  margin: 0 auto;
-  border: 1px solid var(--background-color);
-  box-shadow: 1px 1px 10px var(--background-color);
-}
 .wish-header {
   margin-bottom: 40px;
 }
